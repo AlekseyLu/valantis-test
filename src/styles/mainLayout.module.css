@@ -1,0 +1,7 @@
+.mainContainer {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: auto;
+  height: 100%;
+}

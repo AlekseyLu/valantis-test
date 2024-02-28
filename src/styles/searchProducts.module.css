@@ -1,0 +1,32 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+}
+
+.searchInp {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333;
+}
+
+.searchInp:focus {
+  outline: none;
+}
+
+.btn:disabled {
+  background-color: #f9f9f9;
+  cursor: not-allowed;
+  border-color: #f9f9f9;
+}
+
+@media (max-width: 1024px) {
+  .searchInp {
+    width: 100%;
+  }
+}

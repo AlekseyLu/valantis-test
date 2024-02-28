@@ -1,0 +1,46 @@
+.paginationContainer {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.pagesContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btnSmall {
+  width: max-content;
+  height: 30px;
+  padding: 0.2rem 0.6rem;
+}
+
+.btn:first-child {
+  margin-right: 1rem;
+}
+
+.btn:disabled {
+  background-color: #f9f9f9;
+  cursor: not-allowed;
+  border-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .paginationContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .paginationContainer {
+    flex-direction: column;
+  }
+}

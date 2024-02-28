@@ -1,0 +1,15 @@
+.nothingData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #686868;
+}
+
+@media (max-width: 480px) {
+  .nothingData {
+    text-align: center;
+  }
+}

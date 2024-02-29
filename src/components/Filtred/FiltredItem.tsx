@@ -28,7 +28,7 @@ export const FiltredItem = ({
 }: IProps) => (
   <div className={styles.fieldContainer}>
     <h2>{title}</h2>
-    <div className={styles.brandContainer}>
+    <div className={styles.catigoryContainer}>
       {arr.map(
         (item) =>
           item !== null && (

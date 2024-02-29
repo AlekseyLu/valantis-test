@@ -17,20 +17,8 @@
   align-items: center;
 }
 
-.btnSmall {
-  width: max-content;
-  height: 30px;
-  padding: 0.2rem 0.6rem;
-}
-
 .btn:first-child {
-  margin-right: 1rem;
-}
-
-.btn:disabled {
-  background-color: #f9f9f9;
-  cursor: not-allowed;
-  border-color: #f9f9f9;
+  padding: 0.6rem;
 }
 
 @media (max-width: 768px) {

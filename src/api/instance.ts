@@ -7,7 +7,7 @@ export const axiosInstance = axios.create({});
 
 axiosInstance.interceptors.request.use(async (config: any) => {
   const currentDate = useGetDate();
-  const passStamp = "Valantis_" + currentDate;
+  const passStamp = process.env.REACT_APP_PASS_API + "_" + currentDate;
   config.headers = {
     "X-Auth": md5(passStamp),
   };
